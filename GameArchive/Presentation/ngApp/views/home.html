@@ -1,0 +1,9 @@
+﻿josh loves hello world from home.html
+<ul ng-repeat="game in c.games">
+    <li>
+        {{game.title}}, {{game.genre}}, {{game.maxPlayers}},
+        <span ng-repeat="g in game.gamingSystems">
+            {{g.name}}
+        </span>
+    </li>
+</ul>
